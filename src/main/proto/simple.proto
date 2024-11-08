@@ -1,7 +1,8 @@
 syntax = "proto3";
 
 package example.simple;
-
+//option java_package = "hnt.hnt.custom";
+//option java_outer_classname = "CustomClassName";
 message SimpleMessage {
   int32 id = 1;
   bool is_simple = 2;
