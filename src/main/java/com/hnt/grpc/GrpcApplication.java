@@ -1,14 +1,11 @@
 package com.hnt.grpc;
 
 import example.simple.Simple.SimpleMessage;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.List;
 
-@SpringBootApplication
 public class GrpcApplication {
 
 	public static void main(String[] args) {
